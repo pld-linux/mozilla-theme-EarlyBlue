@@ -2,14 +2,14 @@ Summary:	The original mozilla skin, used defore the creation of the Modern 1.
 Summary(pl):	Oryginalna skórka Mozilli, u¿ywana przed utworzeniem Modern 1.
 Name:		mozilla-theme-EarlyBlue
 %define		_realname	EarlyBlue
-Version:	1.0rc2
+Version:	1.0
 %define	fver	%(echo %{version} | tr -d .)
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://downloads.mozdev.org/themes/%{_realname}%{fver}.jar
+Source0:	http://www.hirsch.sth.ac.at/~robert/kairo.at/dl/%{_realname}%{fver}.xpi
 Source1:	%{_realname}-installed-chrome.txt
-URL:		http://themes.mozdev.org/skins/earlyblue.html
+URL:		http://www.kairo.at/download/mozskins.html
 BuildRequires:	unzip
 BuildArch:	noarch
 Requires:	mozilla >= 1.0-7
