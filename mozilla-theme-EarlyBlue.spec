@@ -25,6 +25,9 @@ the blue-styled look of like those early milestones in current builds
 without cutting any functionality.
 
 %description -l pl
+Ta skórka pokazuje wczesne dni Mozilli (M4 do M8) i próbuje odtworzyæ
+stylizowany na niebiesko wygl±d tych "kamieni milowych" w aktualnych
+wydaniach, bez usuwania ¿adnej funkcjonalno¶ci.
 Oryginalna skórka Mozilli, u¿ywana przed utworzeniem Modern 1.
 
 %prep
