@@ -1,7 +1,9 @@
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/global/
+skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/inspector/
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/communicator/
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/editor/
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/messenger/
+skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/mozapps/
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/navigator/
 skin,install,url,jar:resource:/chrome/EarlyBlue.jar!/chatzilla/
