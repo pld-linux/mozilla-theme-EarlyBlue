@@ -11,8 +11,9 @@ Source0:	http://www.hirsch.sth.ac.at/~robert/kairo.at/dl/%{_realname}%{fver}.xpi
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://www.kairo.at/download/mozskins.html
 BuildRequires:	unzip
-BuildArch:	noarch
+Requires(post,postun):	textutils
 Requires:	mozilla >= 1.0-7
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
 %define		_chromedir	%{_libdir}/mozilla/chrome
@@ -34,14 +35,16 @@ install -d $RPM_BUILD_ROOT%{_chromedir}
 unzip %{SOURCE0} -d $RPM_BUILD_ROOT%{_chromedir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_chromedir}
 
-%post 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post
+umask 022
 cat %{_chromedir}/*-installed-chrome.txt >%{_chromedir}/installed-chrome.txt
 
 %postun
+umask 022
 cat %{_chromedir}/*-installed-chrome.txt >%{_chromedir}/installed-chrome.txt
-
-%clean 
-rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
