@@ -13,7 +13,7 @@ Source1:	%{_realname}-installed-chrome.txt
 URL:		http://www.kairo.at/download/mozskins.html
 BuildRequires:	unzip
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.7
+Requires:	mozilla >= 5:1.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
