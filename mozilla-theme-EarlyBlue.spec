@@ -1,5 +1,5 @@
 Summary:	The original mozilla skin, used defore the creation of the Modern 1
-Summary(pl):	Oryginalna skórka Mozilli, u¿ywana przed utworzeniem Modern 1
+Summary(pl.UTF-8):   Oryginalna skÃ³rka Mozilli, uÅ¼ywana przed utworzeniem Modern 1
 Name:		mozilla-theme-EarlyBlue
 %define		_realname	EarlyBlue
 Version:	1.7
@@ -24,11 +24,11 @@ This skin reflects the early days of Mozilla (M4 to M8) and tries to restore
 the blue-styled look of like those early milestones in current builds
 without cutting any functionality.
 
-%description -l pl
-Ta skórka pokazuje wczesne dni Mozilli (M4 do M8) i próbuje odtworzyæ
-stylizowany na niebiesko wygl±d tych "kamieni milowych" w aktualnych
-wydaniach, bez usuwania ¿adnej funkcjonalno¶ci.
-Oryginalna skórka Mozilli, u¿ywana przed utworzeniem Modern 1.
+%description -l pl.UTF-8
+Ta skÃ³rka pokazuje wczesne dni Mozilli (M4 do M8) i prÃ³buje odtworzyÄ‡
+stylizowany na niebiesko wyglÄ…d tych "kamieni milowych" w aktualnych
+wydaniach, bez usuwania Å¼adnej funkcjonalnoÅ›ci.
+Oryginalna skÃ³rka Mozilli, uÅ¼ywana przed utworzeniem Modern 1.
 
 %prep
 
