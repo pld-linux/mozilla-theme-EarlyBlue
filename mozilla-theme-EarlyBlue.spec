@@ -1,5 +1,5 @@
 Summary:	The original mozilla skin, used defore the creation of the Modern 1
-Summary(pl.UTF-8):   Oryginalna skórka Mozilli, używana przed utworzeniem Modern 1
+Summary(pl.UTF-8):	Oryginalna skórka Mozilli, używana przed utworzeniem Modern 1
 Name:		mozilla-theme-EarlyBlue
 %define		_realname	EarlyBlue
 Version:	1.7
